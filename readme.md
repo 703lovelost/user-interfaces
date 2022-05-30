@@ -1,6 +1,7 @@
 # User Interfaces
 
 Project name: User Interfaces
+
 Author: Aleksey Spirkin - https://github.com/703lovelost
 
 This application was made as the job test for Junior PHP developer's vacancy.
