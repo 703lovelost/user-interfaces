@@ -26,7 +26,7 @@ Besides other fields, administrator can also change user's password. If password
 
 Instruction is written taking into account the use of Open Server (https://ospanel.io/), as the application's functionality was checked using it.
 
-1. Move the 'userinterfaces' folder to the directory '...\OpenServer\domains\';
+1. Move the 'user-interfaces' folder to the directory '...\OpenServer\domains\';
 2. Double-click on '...\OpenServer\Open Server.exe' to start the server's work.
 3. Find Open Server's icon in the bottom-left corner, open the settings and check if you have the next values in the 'Modules' section:
 - HTTP: Apache_2.4-PHP_7.2-7.4+Nginx_1.17
@@ -34,8 +34,8 @@ Instruction is written taking into account the use of Open Server (https://ospan
 - MySQL / MariaDB - MySQL-8.0
 4. Open phpMyAdmin (http://127.0.0.1/openserver/phpmyadmin/index.php) and create database 'userinterfaces_db';
 5. Log in with login 'root' and password 'root';
-6. By clicking on 'Import' section, upload file 'userinterfaces_db.sql', coming in addition to the 'userinterfaces' folder;
-7. Find Open Server's icon in the bottom-left corner, go to My Projects and click on 'userinterfaces'.
+6. By clicking on 'Import' section, upload file 'userinterfaces_db.sql', coming in addition to the 'user-interfaces' folder;
+7. Find Open Server's icon in the bottom-left corner, go to My Projects and click on 'user-interfaces'.
 
 Use login 'admin' and password 'admin' to check how admin's interface works. You can also make some new users with admin privileges using it.
 
