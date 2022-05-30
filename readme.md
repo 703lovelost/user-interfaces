@@ -5,7 +5,7 @@ This application was made as the job test for Junior PHP developer's vacancy.
 No frameworks were used throughout the work.
 The design might be primitive, as the main focus was on functions' work.
 
----The application contains:
+## The application contains:
 
 1. Authorization form, leading to the available interface, depending on your role.
 2. Registration form - signing up this way will give you a 'client' role automatically.
@@ -19,7 +19,7 @@ Besides other fields, administrator can also change user's password. If password
 5. Every type of user can log out.
 6. All the error messages and notifications are shown on top of the page.
 
----How to install:
+## How to install:
 
 Instruction is written taking into account the use of Open Server (https://ospanel.io/), as the application's functionality was checked using it.
 
